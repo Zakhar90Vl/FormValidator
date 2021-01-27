@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Валидация формы</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <form id="form" class="form">
+            <h2>Зарегестрироваться</h2>
+            <div class="form-control">
+                <label for="username">Ваше имя</label>
+                <input type="text" id="username" placeholder="Введите Ваше имя">
+                <small>Error</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Ваш email</label>
+                <input type="text" id="email" placeholder="Введите Ваш email">
+                <small>Error</small>
+            </div>
+            <div class="form-control">
+                <label for="password">Пароль</label>
+                <input type="password" id="password" placeholder="Введите пароль">
+                <small>Error</small>
+            </div>
+            <div class="form-control">
+                <label for="password2">Подтвердите пароль</label>
+                <input type="password" id="password" placeholder="Введите пароль ещё раз">
+                <small>Error</small>
+            </div>
+            <button>Зарегестрироваться</button>
+        </form>
+    </div>
+
+</body>
+</html>
